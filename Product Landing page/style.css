@@ -215,21 +215,35 @@ footer{
         flex-wrap: nowrap;
         align-items: center;
     }
-    h3 {font-size: 14px;}
+    #video{
+        width: 400px;
+        height: 250px;} 
+    #title {font-size: 42px;
+        align-items: center;}
 
+    #subtitle {font-size: 18px;
+        text-align: center;}
+    #form{
+         align-items: center;
+        }
+    .email-address {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    h3 {font-size: 14px;}
     .trombone {font-size: 14px;}
 
     #trombone{
         width: 300px;}
-  #video{
-    width: 400px;
-    height: 250px;} 
 
     .nav-link {
         font-size: 14px;
         padding: 0px 40px 0px 40px;
     }
 #feature-element { width: 300px;}
+
  }
 
 
