@@ -1,0 +1,222 @@
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url(assets/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: "OpenSans-VariableFont_wdth\,wght)";
+    src: url(assets/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family:"Oranienbaum-Regular";
+    src: url(assets/Oranienbaum-Regular.ttf)
+}
+
+body{
+        background-color: rgb(244, 244, 244);
+       }
+#nav-bar{
+position: fixed;
+top: 0;
+min-height: 75px;
+width: 100vw;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+background-color:rgba(244, 244, 244, 0.2);
+backdrop-filter: blur(10px);
+}
+#header-img {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+}
+.nav-link {
+    font-family: "OpenSans-VariableFont_wdth\,wght)";
+    font-size: 16px;
+    font-weight: 600;
+    color: 141414;
+    text-decoration: none;
+    padding: 0px 100px 0px 100px;
+    color: #141414;
+}
+ .nav-link:hover{
+    color: darkorange;
+}
+#works{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    font-family: "Oranienbaum-Regular";
+    font-size: 62px;
+}
+#subtitle{
+    font-family: "OpenSans-Light";
+    font-size: 24px;
+}
+#email{
+    box-sizing: content-box;
+    width: 60%;
+    padding: 12px;
+    border-radius: 30px;
+    border-style: groove;
+    border-color: #fefefe;
+    font-family: "OpenSans-VariableFont_wdth\,wght)";
+    font-size: 14px;
+    margin-right: 24px;
+}
+#button{
+    box-sizing: content-box;
+    background-color: darkorange;
+    width: 20%;
+    color: #fefefe;
+    border-radius: 30px;
+    border-style: none;
+    padding: 12px 20px 12px 20px;
+    font-family: "OpenSans-VariableFont_wdth\,wght)";
+    font-size: 14px;
+    font-weight: 550;
+}
+#button:hover {
+    background-color: rgb(80, 80, 80);
+}
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0px;
+}
+#feature-element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+}
+.icon{
+    margin: 0px 24px;
+}
+.feature-title {
+    font-family: "OpenSans-VariableFont_wdth\,wght)";
+    font-size: 20px;
+}
+p {
+    font-family: "OpenSans-Light";
+    font-size: 14px;
+}
+#icon {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 125px;
+width: 20vw;
+color: darkorange;
+}
+#pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.trombone{
+    background-color: darkorange;
+    margin: 0;
+    padding: 14px;
+    box-sizing: border-box;
+    color: #141414;
+    width: 100%;
+    font-family: "OpenSans-VariableFont_wdth\,wght)";
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+#trombone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(65% / 3);
+    border: 1px solid darkorange;
+    border-radius: 4px;
+    background-color: #fefefe;
+}
+h3 {
+    font-family: "OpenSans-VariableFont_wdth\,wght)";
+    font-size: 28px;
+}
+#submit{
+    box-sizing: content-box;
+    background-color: darkorange;
+    width: 20%;
+    color: #fefefe;
+    border-radius: 30px;
+    border-style: none;
+    padding: 12px 38px 12px 38px;
+    font-family: "OpenSans-VariableFont_wdth\,wght)";
+    font-size: 14px;
+    font-weight: 550;
+    margin: 32px;
+}
+#submit:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+#select { box-sizing: content-box;
+    background-color: darkorange;
+    width: 20%;
+    color: #fefefe;
+    border-radius: 30px;
+    border-style: none;
+    padding: 12px 38px 12px 38px;
+    font-family: "OpenSans-VariableFont_wdth\,wght)";
+    font-size: 14px;
+    font-weight: 550;
+    margin: 32px; }
+
+    #select:hover {
+        background-color: rgb(80, 80, 80);
+    }
+footer{ 
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+    background-color: rgb(168, 168, 168);
+    padding: 32px;
+}
+#footer-link{
+    font-family: "OpenSans-VariableFont_wdth\,wght)";
+    font-size: 16px;
+    margin: 0px 80px 0px 80px;
+    color:#141414;
+    text-decoration: none;
+}
+  @media (min-width: 501px) and (max-width: 1200px){
+    #pricing {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      gap: 16px;
+    }
+    #nav-bar { display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    h3 {font-size: 14px;}
+    .trombone {font-size: 14px;}
+    #feature-element{
+        width: 400px;
+  }}
+
+
+
+    
